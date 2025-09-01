@@ -6,7 +6,6 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
 .eggs/
 lib/
@@ -15,12 +14,12 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
-*.search.json
-
-# Environments
+*.manifest
+*.mo
+*.pot
+*.vc/
 .env
 .venv
 env/
@@ -28,39 +27,30 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Editor directories and files
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS
-*.DS_Store
-*.localized
-Thumbs.db
-ehthumbs.db
-.Spotlight-V100
-.Trashes
-
-# Jupyter Notebook
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+cover/
+htmlcov/
+.tox/
+.report.json
+.coverage
+.coverage.*
+.cache
 .ipynb_checkpoints
+.spyproject/
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.swo
+s.+
+# Example: ignore a data directory
+# data/
 
-# Gradio files
-__pycache__
-*.pyc
-output/
-upload/
-.gradio/
-
-# FAISS index files
+# Ignore the FAISS index files and directory
 faiss_index/
 
-# OpenAI API Key file (if stored locally, which is not recommended)
-# openai_api_key.txt
-
-# Any other sensitive files
-# my_secret_config.json
+# Ignore secrets file if you were using a local one (not recommended for Spaces)
+# secrets.json

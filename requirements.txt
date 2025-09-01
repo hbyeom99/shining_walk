@@ -1,7 +1,10 @@
 langchain-openai
 langchain-community
+langchain-text-splitters
+faiss-cpu
 pypdf
 beautifulsoup4
 requests
 tqdm
 gradio
+openai
